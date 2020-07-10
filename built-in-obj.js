@@ -19,6 +19,7 @@ function calculate(radius){
 }
 showFunctions(calculate(3));
 
+
 //Number built-in methods
 function integer(x,y){
     if(Number.isInteger(y/x)){
