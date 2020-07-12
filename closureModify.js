@@ -25,7 +25,20 @@ counterLib.decrement(1);
 console.log(counterLib.getCurrentValue());
 
 
-const array =['a', 'b', 'c'];
-array.splice(0, 1, 'c');
- array.splice(2, 1, 'a');
-console.log(array);
+// const array =['a', 'b', 'c'];
+// array.splice(0, 1, 'c');
+//  array.splice(2, 1, 'a');
+// console.log(array);
+
+function makeFunc() {
+  var name= 'edward';
+  function displayName() {
+    //alert(name);
+    // console.log(name)
+  }
+  return displayName;
+}
+
+// console.log(makeFunc());
+var myFunc = makeFunc();
+myFunc();
