@@ -1,0 +1,53 @@
+/*
+implement a simple counter
+
+properties:
+inital value
+
+functions : 
+increment -- increases the initial value by passed parameter 
+
+function increment(value){
+    return initialValue += value;
+}
+
+
+decrement -- decreases the value given by increment function
+
+function decrement(value){
+    return initialValue -= value;
+}
+
+current Vlaue : gives the current value
+function 
+
+
+counter is an object which has abpove properties and functions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+
