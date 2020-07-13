@@ -42,3 +42,19 @@ function makeFunc() {
 // console.log(makeFunc());
 var myFunc = makeFunc();
 myFunc();
+
+
+//-------------------------------------------------------------------
+// input:
+// [a,b,c]
+
+// output:
+// [c,a,b]
+
+// create temp var
+// iterator array elements using for loop
+// if poinetr is at first elements then placd it in temp var
+// replace i+1th element in ith position
+// last postion is array.length -1
+// when i is at last position then replace ith position with temp var
+
